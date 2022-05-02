@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tela1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtWhiteSpace"
+            android:layout_marginBottom="383.5dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="38.5dp"
+            android:id="@+id/linearLayout2"
+            android:layout_marginBottom="38.5dp" />
+        <Button
+            android:text="SITE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#094E8C"
+            android:textSize="30px"
+            android:textStyle="normal"
+            android:layout_marginLeft="150px"
+            android:layout_marginRight="150px"
+            android:id="@+id/btnSite"/>
+        <Button
+            android:text="JOGAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#094E8C"
+            android:textSize="30px"
+            android:layout_marginLeft="150px"
+            android:layout_marginRight="150px"
+            android:id="@+id/btnJogar" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tela3">
+    <EditText
+        android:text="URL"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUrl" />
+    <android.webkit.WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView1" />
+    <Button
+        android:text="VISITAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#094E8C"
+        android:textSize="30px"
+        android:layout_marginLeft="150px"
+        android:layout_marginRight="150px"
+        android:id="@+id/btnIr" />
+</LinearLayout>
